@@ -58,8 +58,14 @@ nav {
     width: 100%;
     border: 2px solid black;
  }
-
  #asection {
     width: 100%;
  }
- 
+ .flexwork {
+   display: flex;
+ }
+ .flexitems {
+   width: 30%;
+   height: auto;
+   border: 2px solid black;
+ }
