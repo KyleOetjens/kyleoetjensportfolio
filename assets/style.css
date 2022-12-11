@@ -2,16 +2,15 @@
     background-color: #DADCDE;
     color: #445F4A;
 }
-header {
+header , footer{
    display: flex;
     border-left: 5px solid black;
     height: 75px;
     width: 100%;
     margin: 5px, 5px;
     justify-content: space-between;
-    
 }
-ul {
+nav ul, footer ul{
     display: flex;
     justify-content: space-between;
     list-style-type: georgian;
@@ -19,13 +18,13 @@ ul {
 
 #headimg{
    max-width: 100%;
-   max: height 100%;
+   max-height: 100%;
+   border-radius: 20px;
    
 }
 nav {
     width: 40%;
     margin-right: 10px;
-    
 }
 #img {
     width: 100%;
@@ -78,17 +77,21 @@ nav {
    width: 49%;
    background-color: azure;
  }
-footer {
-   display: flex;
-   width: 100%;
-   margin-top: 40px;
-   align-items: flex-end;
-}
-footer li {
-   
-}
+
+
 #headdiv {
    width: auto;
    height: auto;
    display: inline-flex;
+}
+
+/*#footerlist {
+   display: flex;
+   justify-content: flex-end;
+
+   footer {
+   display: flex;
+   width: 100%;
+   margin-top: 40px;
+   align-items: flex-end;
 }
