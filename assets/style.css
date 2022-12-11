@@ -58,8 +58,9 @@ nav {
  }
  #mainwork {
     max-height: 300px;
-    border: 2px solid black;
+    border-radius: 15px;
     width: 100%;
+    overflow: hidden;
     
  }
  a{
@@ -70,7 +71,13 @@ nav {
    display: flex;
    flex-wrap: wrap;
    width: 100%;
+   overflow: hidden;
+   justify-content: space-between;
+   align-content: space-between;
    
+ }
+ .flexwork div {
+   overflow: hidden;
  }
 #headdiv {
    width: auto;
@@ -85,9 +92,9 @@ nav {
 .flexitems {
    display: flex;
    flex-wrap: wrap;
-   border: 2px solid black;
+   border-radius: 15px;
    max-width: 49%;
-   margin: 2px;
+   margin: 2px 2px;
    max-height: 200px;
 }
 /*
