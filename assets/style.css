@@ -4,7 +4,6 @@
 }
 header , footer{
    display: flex;
-    border-left: 5px solid black;
     height: 75px;
     width: 100%;
     margin: 5px, 5px;
@@ -15,11 +14,11 @@ nav ul, footer ul{
     justify-content: space-between;
     list-style-type: georgian;
 }
-
 #headimg{
    max-width: 100%;
    max-height: 100%;
    border-radius: 20px;
+   margin-left: 5px;
    
 }
 nav {
@@ -33,11 +32,9 @@ nav {
  }
  .section {
     position: relative;
-    border-left: 5px solid black;
     margin: 2px;
     display: flex;
  }
-
  #subtitle {
     display: flex;
     justify-content: flex-start;
@@ -51,7 +48,10 @@ nav {
  }
  h3{
     margin-left: -15%;
-    width: 30px;
+    margin-bottom: auto;
+ }
+ #aboutmep{
+   margin-top: auto;
  }
  #maincontent{ 
     margin-left: 15%;
@@ -88,35 +88,44 @@ nav {
    width: 100%;
    max-height: 100%;
    overflow: hidden;
+  
 }
 .flexitems {
    display: flex;
    flex-wrap: wrap;
    border-radius: 15px;
-   max-width: 49%;
+   width: 49%;
    margin: 2px 2px;
    max-height: 200px;
+   
 }
-/*
- .flexwork {
-   display: flex;
-   height: auto;
-   flex-wrap:wrap
- }
-#footerlist {
-   display: flex;
-   justify-content: flex-end;
-
-   footer {
-   display: flex;
-   width: 100%;
-   margin-top: 40px;
-   align-items: flex-end;
+#fifthcontent, #forthcontent, #thirdcontent,
+#secondwork, #mainwork{
+   position: relative;
+   text-align: center;
+   color: white;
+}
+#idwork p {
+   position: absolute;
+   top: 8px;
+   background-color: black;
+   color: white;
+   border-radius: 5px;
+}
+footer {
+   margin-top: 100px;
+}
+@media screen and (max-width: 710px) {
+   #footerlist{ display: contents;}
+   }
+   
+   @media screen and (max-width: 790px) {
+      header{display: contents;}
+      nav {display: contents;}
+      }
+@media screen and (max-width: 490px) {
+   .flexitems {width: 100%;}
+   
+   header ul, #headdiv,#footerlist {display: block;}
 }
 
- .flexitems {
-   display: flex;
-   border: 2px solid black;
-   width: 45%;
-   margin: 2px;
-   max-height: 100px;
