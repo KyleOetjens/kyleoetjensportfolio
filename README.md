@@ -2,18 +2,14 @@
 
 ## Description
 
-Creating a portfolio page to show off my work and progress.  This will be a place for others to come and view all my best/current work.  
+Creating a portfolio page to show off my work and progress.  This will be a place for others to come and view all my best/current work.  I will be adding to the page and this readme as I work through the course.    
 
 
 ## Usage
-
-Provide instructions and examples for use. Include screenshots as needed.
-
-To add a screenshot, create an `assets/images` folder in your repository and upload your screenshot to it. Then, using the relative filepath, add it to your README using the following syntax:
-
-    ```md
-    ![alt text](assets/images/screenshot.png)
-    ```
+Feel free to take a look around at what I have so far
+    
+![alt text](./assets/images/portfolio.png)
+    
 
 ## Credits
 Credit W3 Schools for providing mockups and tutorials to learn from in order to complete this project
