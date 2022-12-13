@@ -74,6 +74,7 @@ nav {
    overflow: hidden;
    justify-content: space-between;
    align-content: space-between;
+  
    
  }
  .flexwork div {
@@ -91,7 +92,6 @@ nav {
   
 }
 .flexitems {
-   display: flex;
    flex-wrap: wrap;
    border-radius: 15px;
    width: 49%;
