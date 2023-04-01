@@ -2,7 +2,8 @@
 
 ## Description
 
-Creating a portfolio page to show off my work and progress.  This will be a place for others to come and view all my best/current work.  I will be adding to the page and this readme as I work through the course.    
+Creating a portfolio page to show off my work and progress.  This will be a place for others to come and view all my best/current work.  I will be adding to the page and this readme as I work through the course.   
+View my portfolio here- https://kyleoetjens.github.io/kyleoetjensportfolio/ 
 
 
 ## Usage
